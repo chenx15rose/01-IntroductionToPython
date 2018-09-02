@@ -90,9 +90,9 @@ boris = rg.SimpleTurtle()
 #   - Ask the SimpleTurtle object to do things by applying METHODs to it.
 # The numbers in the parentheses are called ARGUMENTS.
 # -----------------------------------------------------------------------------
-boris.forward(100)
-boris.left(90)
-boris.forward(200)
+boris.forward(400)
+boris.left(900)
+boris.forward(400)
 
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
