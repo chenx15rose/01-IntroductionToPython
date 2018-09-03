@@ -40,12 +40,13 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 ###############################################################################
 import rosegraphics as rg;
 window = rg.TurtleWindow();
+point1 = rg.Point(100,-40);
 myturtle= rg.SimpleTurtle();
 myturtle.pen=rg.Pen('blue',1)
 myturtle.left(90);
 myturtle.forward(200);
 myturtle.pen_up();
-myturtle.go_to(100,-40);
+myturtle.go_to(point1);
 myturtle.pen_down();
 myturtle.pen=rg.Pen('green',10);
 myturtle.left(180);
