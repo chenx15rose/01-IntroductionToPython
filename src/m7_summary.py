@@ -45,7 +45,7 @@ myturtle.pen=rg.Pen('blue',1)
 myturtle.left(90);
 myturtle.forward(200);
 myturtle.pen_up();
-myturtle.go_to(100, -40);### a problem occured
+myturtle.go_to(100,-40);
 myturtle.pen_down();
 myturtle.pen=rg.Pen('green',10);
 myturtle.left(180);
